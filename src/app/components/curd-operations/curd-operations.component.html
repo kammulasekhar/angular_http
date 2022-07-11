@@ -1,0 +1,10 @@
+<p>curd-operations works!</p>
+<input [(ngModel)]="test" name="test" (ngModelChange)="search()">
+<ul *ngFor="let collection of collections">
+    <li>userId:{{collection.userId}}</li>
+    <li>id:{{collection.id}}</li>
+    <li>title:{{collection.title}}</li>
+    <!-- <input [(ngModel)]="collection.userId">
+    <input [(ngModel)]="collection.id">
+    <input [(ngModel)]="collection.title"> -->
+</ul>
